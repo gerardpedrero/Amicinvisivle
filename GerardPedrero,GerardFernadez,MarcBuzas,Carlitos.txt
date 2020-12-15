@@ -1,0 +1,64 @@
+import java.util.Collections;
+import java.util.Arrays;
+
+public class hAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA{
+
+    public static void main(String[] args){
+    	String resgalito;
+        String[] Haaaaachus = {"Daniel Barbancho Montero",
+        		"Xavier Bermúdez Molgó",
+        		"Joel Berrocal Urbina",
+        		"Marc Bouzas Guadalupe",
+        		"Nil Carvajal Playa",
+        		"Quim Comas Navarro",
+        		"Aleix Deumal Tripiana",
+        		"Pau Domènech Pacheco",
+        		"Gerard Fernández Requena",
+        		"Sergio Garcia Ruiz",
+        		"Adrián Gil Moreno",
+        		"Oriol Pacheco Acevedo",
+        		"Marcel Josep Paulí Lara",
+        		"Pol Pavon Pozo",
+        		"Gerard Pedrero Carbonell",
+        		"Martí Puig Martín",
+        		"Ruben Recolons Reig",
+        		"Josep Recolons Rodriguez",
+        		"Pau Riera Mas",
+        		"Carlos Abel Silva Teixeira",
+        		"Haaaaaaaaaaaaaaaaaaa(tutor)"};
+        String[] ratatatatata = {"Daniel Barbancho Montero",
+        		"Xavier Bermúdez Molgó",
+        		"Joel Berrocal Urbina",
+        		"Marc Bouzas Guadalupe",
+        		"Nil Carvajal Playa",
+        		"Quim Comas Navarro",
+        		"Aleix Deumal Tripiana",
+        		"Pau Domènech Pacheco",
+        		"Gerard Fernández Requena",
+        		"Sergio Garcia Ruiz",
+        		"Adrián Gil Moreno",
+        		"Oriol Pacheco Acevedo",
+        		"Marcel Josep Paulí Lara",
+        		"Pol Pavon Pozo",
+        		"Gerard Pedrero Carbonell",
+        		"Martí Puig Martín",
+        		"Ruben Recolons Reig",
+        		"Josep Recolons Rodriguez",
+        		"Pau Riera Mas",
+        		"Carlos Abel Silva Teixeira",
+        		"Haaaaaaaaaaaaaaaaaaa(tutor)"};
+        Collections.shuffle(Arrays.asList(ratatatatata));
+        for (int jamon = 0; jamon < ratatatatata.length; ++jamon){
+        	if (ratatatatata[jamon] == Haaaaachus[jamon]) {
+        	
+        		
+        		resgalito=ratatatatata[jamon];
+        		ratatatatata[jamon]=ratatatatata[jamon-1];
+        		ratatatatata[jamon-1]=resgalito;		
+        	}
+        }
+        for (int jamon = 0; jamon < ratatatatata.length; ++jamon){
+        	System.out.println(Haaaaachus[jamon] + "  >  " + ratatatatata[jamon]);
+        }
+    }
+}
